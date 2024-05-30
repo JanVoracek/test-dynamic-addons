@@ -1,0 +1,21 @@
+{
+  "name": "test-dynamic-addons",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--experimental-vm-modules next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.7.2",
+    "html-react-parser": "^5.1.10",
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "env": {
+    "NODE_OPTIONS": "--experimental-vm-modules"
+  },
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--experimental-vm-modules"
+    }
+  }
+}
